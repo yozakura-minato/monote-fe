@@ -19,8 +19,8 @@ The main goal is to help user take full control of their financial health and ac
 ```
 pnpm install
 ```
-4. start a development server.
+4. Start a development server.
 ```
 pnpm run dev
 ```
-5. **Monote** is now running at: `http://localhost:5173/`.
+5. **Monote Web Application** is now running at: `http://localhost:5173/`.
