@@ -26,21 +26,25 @@ export const actions: Actions = {
             if (!response.ok) {
                 const errorData = await response
                     .json()
-                    .catch(() => ({ message: 'general.badRequest' }));
+                    .catch(() => ({ error: 'general.badRequest' }));
+
                 return message(
                     form,
-                    { type: 'error', text: errorData.error ?? 'general.badRequest' }
+                    { type: 'error', text: errorData.error ?? 'general.badRequest' },
+                    { status: response.status as any }
                 );
             }
 
             return message(
                 form,
-                { type: 'success', text: 'Signed up successfully!' }
+                { type: 'success', text: 'signUp.success' }
             );
+
         } catch (err) {
             return message(
                 form,
-                { type: 'error', text: 'general.internalServerError' }
+                { type: 'error', text: 'general.internalServerError' },
+                { status: 500 }
             );
         }
     }

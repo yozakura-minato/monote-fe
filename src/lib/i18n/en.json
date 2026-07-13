@@ -1,0 +1,95 @@
+{
+    "general": {
+        "badRequest": "Something went wrong. Please check carefully and try again.",
+        "internalServerError": "Something went wrong. Please try again later."
+    },
+    "user": {
+        "displayName": {
+            "isNull": "Display name can not be blank.",
+            "hasInvalidSize": "Display name can not contain over 50 characters."
+        },
+        "email": {
+            "isNull": "Email can not be blank.",
+            "isInvalid": "Invalid email format.",
+            "alreadyExists": "Email already used.",
+            "notFound": "Email not found."
+        },
+        "password": {
+            "isNull": "Password can not be blank.",
+            "hasInvalidSize": "Password length must be in range of 8~64 characters.",
+            "isWeak": "Password must contain at least 2 of these type: uppercase character, lowercase character, number digit or special charaters."
+        },
+        "confirmPassword": {
+            "isNull": "Confirm password can not be blank.",
+            "doesNotMatch": "Confirm password does not match."
+        }
+    },
+    "homepage": {
+        "description": "Homepage of Monote - a useful Personal expense tracking tool",
+        "header": {
+            "normal": "Take Control of ",
+            "span": "Your Financial Health"
+        },
+        "introduction": "Plan your budget, track expenses, and achieve your savings goals with Monote. Simple, powerful, and designed for your financial success.",
+        "showDetail": "Learn More",
+        "budget": {
+            "label": "Total Budget",
+            "money": "$3,400"
+        },
+        "spent": {
+            "label": "Spent",
+            "percent": "51%"
+        },
+        "remaining": {
+            "label": "Remaining",
+            "money": "$1,666"
+        },
+        "feature": {
+            "header": "Powerful Features",
+            "subheader": "Everything you need to master your finances"
+        },
+        "planning": {
+            "title": "Smart Budget Planning",
+            "description": "Create and customize financial plans tailored to your spending goals and income sources."
+        },
+        "suggestion": {
+            "title": "Allocation Suggestions",
+            "description": "Get intelligent recommendations on how to allocate your money for better financial health."
+        },
+        "analytic": {
+            "title": "Detailed Analytics",
+            "description": "Track and visualize expenses across categories with comprehensive statistical insights."
+        },
+        "redirection": {
+            "title": "Ready to Transform Your Finances?",
+            "description": "Join thousands of users who have taken control of their financial health with Monote.",
+            "action": "Get Started"
+        },
+        "back": "Back to homepage"
+    },
+    "signUp": {
+        "title": "Sign Up",
+        "action": "Sign up",
+        "header": "Create Monote account",
+        "description": "Sign Up page of Monote - Create your own Monote account.",
+        "success": "Signed up successfully!",
+        "displayName": {
+            "label": "Display name",
+            "placeholder": "Barry Holt"
+        },
+        "email": {
+            "label": "email",
+            "placeholder": "barry-holt@monote.com"
+        },
+        "password": {
+            "label": "Password"
+        },
+        "confirmPassword": {
+            "label": "Confirm password"
+        }
+    },
+    "signIn": {
+        "action": "Sign in",
+        "suggestion": "Already have an account?"
+    }
+}

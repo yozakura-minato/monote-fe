@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      i18next:
+        specifier: ^26.3.6
+        version: 26.3.6(typescript@6.0.3)
       svelte-sonner:
         specifier: ^1.1.1
         version: 1.1.1(svelte@5.56.3(@typescript-eslint/types@8.61.0))
@@ -865,6 +868,14 @@ packages:
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+
+  i18next@26.3.6:
+    resolution: {integrity: sha512-Bu5Z2nAXgfVyM8xvW3jk9EKRIuX37PudsrBViThNFx7CR7aaYTpP01cxNB/E4c4UUzTDiAZRstEhsRfPOL/8xA==}
+    peerDependencies:
+      typescript: ^5 || ^6 || ^7
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -2208,6 +2219,10 @@ snapshots:
   globals@17.6.0: {}
 
   graceful-fs@4.2.11: {}
+
+  i18next@26.3.6(typescript@6.0.3):
+    optionalDependencies:
+      typescript: 6.0.3
 
   ignore@5.3.2: {}
 

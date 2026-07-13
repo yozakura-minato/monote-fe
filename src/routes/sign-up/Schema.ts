@@ -7,7 +7,7 @@ export const SignUpSchema = pipe(
         displayName: pipe(
             string(),
             trim(),
-            minLength(1, 'user.displayName.hasInvalidSize'),
+            minLength(1, 'user.displayName.isNull'),
             maxLength(50, 'user.displayName.hasInvalidSize')
         ),
         email: pipe(
@@ -30,7 +30,7 @@ export const SignUpSchema = pipe(
     }),
     forward(
         partialCheck([['password'], ['confirmPassword']],
-            (input) => input.password !== "" && input.password === input.confirmPassword,
+            (input) => input.password.trim() === "" || input.password.trim() === input.confirmPassword.trim(),
             'user.confirmPassword.doesNotMatch'
         ), ['confirmPassword']
     )

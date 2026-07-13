@@ -1,0 +1,95 @@
+{
+    "general": {
+        "badRequest": "エラーが発生しました。慎重に確認しだい、再びお試しください。",
+        "internalServerError": "エラーが発生しました。慎重に確認しだい、後ほどお試しください。"
+    },
+    "user": {
+        "displayName": {
+            "isNull": "表示名を入力してください。",
+            "hasInvalidSize": "表示名は50文字以内で入力してください。"
+        },
+        "email": {
+            "isNull": "メールを入力してください。",
+            "isInvalid": "メールの形式が不正です。",
+            "alreadyExists": "このメールが既に登録されました。",
+            "notFound": "メールが見つかりません。"
+        },
+        "password": {
+            "isNull": "パスワードを入力してください。",
+            "hasInvalidSize": "パスワードは8~64文字の範囲で入力してください。",
+            "isWeak": "パスワードには、大文字・小文字・数字・特殊文字のうち、少なくとも2種類を含める必要があります。"
+        },
+        "confirmPassword": {
+            "isNull": "パスワードの確認を入力してください。",
+            "doesNotMatch": "パスワードの確認が一致していません。"
+        }
+    },
+    "homepage": {
+        "description": "Monoteのホームページ・便利な個人向け支出管理アプリ",
+        "header": {
+            "normal": "スマートに管理しよう",
+            "span": "お金の健康状態を"
+        },
+        "introduction": "Monote（モノート）で予算の計画、支出の記録、そして貯蓄目標の達成を。シンプルで強力な機能が、あなたの資産形成をサポートします。",
+        "showDetail": "詳しく見る",
+        "budget": {
+            "label": "総予算",
+            "money": "￥58,330"
+        },
+        "spent": {
+            "label": "支出",
+            "percent": "80%"
+        },
+        "remaining": {
+            "label": "残り",
+            "money": "￥11,666"
+        },
+        "feature": {
+            "header": "充実の機能",
+            "subheader": "お金管理に必要な全てがここに"
+        },
+        "planning": {
+            "title": "スマートな予算計画",
+            "description": "支出目標や収入源に合わせて、収支計画を自由に作成・カスタマイズできます。"
+        },
+        "suggestion": {
+            "title": "おすすめの予算配分",
+            "description": "より健全な家計のために、スマートなお金の配分方法を提案します。"
+        },
+        "analytic": {
+            "title": "詳細な分析レポート",
+            "description": "カテゴリ別の支出をグラフで可視化し、詳細な統計データで傾向をひと目で把握できます。"
+        },
+        "redirection": {
+            "title": "家計管理を一新しませんか？",
+            "description": "Monoteでスマートなお金管理を始めた、多くのユーザーの仲間入りをしましょう。",
+            "action": "始める"
+        },
+        "back": "ホームページに戻る"
+    },
+    "signUp": {
+        "title": "登録",
+        "action": "アカウント登録",
+        "header": "Monoteアカウントを登録",
+        "description": "モノテの登録画面 - あなたのモノテアカウントを登録。",
+        "success": "正常に登録しました。",
+        "displayName": {
+            "label": "表示名",
+            "placeholder": "夜桜　水音"
+        },
+        "email": {
+            "label": "メール",
+            "placeholder": "yozakura-minato@monote.com.jp"
+        },
+        "password": {
+            "label": "パスワード"
+        },
+        "confirmPassword": {
+            "label": "パスワードの確認"
+        }
+    },
+    "signIn": {
+        "action": "ログイン",
+        "suggestion": "登録済みの方は"
+    }
+}
