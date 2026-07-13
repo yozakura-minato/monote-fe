@@ -68,5 +68,9 @@
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"svelte-sonner": "^1.1.1",
+		"valibot": "^1.4.2"
+	}
 }
