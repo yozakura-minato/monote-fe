@@ -93,6 +93,7 @@
 					</button>
 					<button
 						class="bg-secondary text-secondary-foreground px-8 py-3 rounded-md text-base border border-border transition-colors hover:bg-secondary/80"
+						onclick={() => goto('#features')}
 					>
 						{i18n.t('homepage.showDetail')}
 					</button>
@@ -101,9 +102,6 @@
 
 			<!-- Hero Visual -->
 			<div class="mt-16 md:mt-24 relative">
-				<div
-					class="absolute inset-0 -z-10 bg-linear-to-b from-primary/10 to-transparent rounded-2xl blur-3xl"
-				></div>
 				<div class="bg-card border border-border rounded-lg shadow-lg p-8 md:p-12">
 					<div class="grid grid-cols-3 gap-4 md:gap-8">
 						<div class="text-center">
@@ -130,7 +128,7 @@
 		</section>
 
 		<!-- Features Section -->
-		<section class="py-20 md:py-24">
+		<section class="py-20 md:py-24" id="features">
 			<div class="text-center mb-12 md:mb-16">
 				<h2 class="text-3xl md:text-4xl font-bold mb-4">{i18n.t('homepage.feature.header')}</h2>
 				<p class="text-lg text-muted-foreground">{i18n.t('homepage.feature.subheader')}</p>

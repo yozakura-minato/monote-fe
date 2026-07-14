@@ -7,9 +7,10 @@
 The main goal is to help user take full control of their financial health and achieve their savings goals.
 
 ### Techniques for frontend
-- TypeScript, SvelteKit
-- Superforms, Zod
-- Shadcn, Lucide
+- Svelte 5, SvelteKit 2
+- Superforms, Zod for form validation
+- Lucide for UI icons
+- Svelte Sonner for toasts
 
 
 ### Get started

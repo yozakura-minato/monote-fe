@@ -17,8 +17,8 @@
 			const formMessage = form.message;
 			if (formMessage) {
 				if (formMessage.type === 'success') {
-					toast.success(i18n.t(formMessage.text));
 					goto('/', { replaceState: true });
+					toast.success(i18n.t(formMessage.text));
 				} else if (formMessage.type === 'error') {
 					toast.error(i18n.t(formMessage.text));
 				}
@@ -154,7 +154,7 @@
 				</button>
 			</form>
 
-			<!-- Login Link -->
+			<!-- Sign in Link -->
 			<div class="text-center">
 				<p class="text-muted-foreground">
 					{i18n.t('signIn.suggestion')}

@@ -1,5 +1,5 @@
 import { pipe, object, string, trim, minLength, maxLength, toLowerCase, email, check, forward, partialCheck } from 'valibot';
-import { type InferOutput } from 'valibot';
+import type { InferOutput } from 'valibot';
 import isStrongPassword from '$lib/utils/password-streight-validatior.js';
 
 export const SignUpSchema = pipe(
