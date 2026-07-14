@@ -1,7 +1,8 @@
 {
     "general": {
         "badRequest": "Something went wrong. Please check carefully and try again.",
-        "internalServerError": "Something went wrong. Please try again later."
+        "internalServerError": "Something went wrong. Please try again later.",
+        "unauthorized": "Incorrect email or password."
     },
     "user": {
         "displayName": {
@@ -69,7 +70,8 @@
     },
     "signUp": {
         "title": "Sign Up",
-        "action": "Sign up",
+        "action": "Sign Up",
+        "suggestion": "New to Monote?",
         "header": "Create Monote account",
         "description": "Sign Up page of Monote - Create your own Monote account.",
         "success": "Signed up successfully!",
@@ -78,7 +80,7 @@
             "placeholder": "Barry Holt"
         },
         "email": {
-            "label": "email",
+            "label": "Email",
             "placeholder": "barry-holt@monote.com"
         },
         "password": {
@@ -89,7 +91,22 @@
         }
     },
     "signIn": {
-        "action": "Sign in",
-        "suggestion": "Already have an account?"
+        "title": "Sign In",
+        "action": "Sign In",
+        "suggestion": "Already have an account?",
+        "header": "Sign in to Monote",
+        "description": "Sign In page of Monote - Create your own Monote account.",
+        "success": "Signed in successfully!",
+        "email": {
+            "label": "Email",
+            "placeholder": "barry-holt@monote.com"
+        },
+        "password": {
+            "label": "Password"
+        }
+    },
+    "resetPassword": {
+        "action": "Reset Password",
+        "suggestion": "Forgot your password?"
     }
 }

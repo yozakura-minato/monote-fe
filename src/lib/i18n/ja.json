@@ -1,7 +1,8 @@
 {
     "general": {
         "badRequest": "エラーが発生しました。慎重に確認しだい、再びお試しください。",
-        "internalServerError": "エラーが発生しました。慎重に確認しだい、後ほどお試しください。"
+        "internalServerError": "エラーが発生しました。慎重に確認しだい、後ほどお試しください。",
+        "unauthorized": "メールまたはパスワードが間違っています。"
     },
     "user": {
         "displayName": {
@@ -70,8 +71,9 @@
     "signUp": {
         "title": "登録",
         "action": "アカウント登録",
+        "suggestion": "未登録の方は",
         "header": "Monoteアカウントを登録",
-        "description": "モノテの登録画面 - あなたのモノテアカウントを登録。",
+        "description": "Monoteの登録画面 - あなたのMonoteアカウントを登録。",
         "success": "正常に登録しました。",
         "displayName": {
             "label": "表示名",
@@ -89,7 +91,22 @@
         }
     },
     "signIn": {
+        "title": "ログイン",
         "action": "ログイン",
-        "suggestion": "登録済みの方は"
+        "suggestion": "登録済みの方は",
+        "header": "Monoteにログイン",
+        "description": "Monoteの登録画面 - あなたのMonoteアカウントにログイン。",
+        "success": "正常にログインしました。",
+        "email": {
+            "label": "メール",
+            "placeholder": "yozakura-minato@monote.com.jp"
+        },
+        "password": {
+            "label": "パスワード"
+        }
+    },
+    "resetPassword": {
+        "action": "パスワードを再設定",
+        "suggestion": "パスワードを忘れた場合は"
     }
 }
